@@ -26,7 +26,7 @@ export default function Sidebar() {
     <aside className="fixed top-1/2 left-0 transform -translate-y-1/2 w-48 h-[720px] bg-white rounded-r-[40px] shadow-md flex flex-col items-center">
       <div className="flex items-center gap-4 mb-12 py-6">
         <img src={logo} alt="Logo" className="w-8 h-8" />
-        <h1 className="text-xl font-normal">INFO3V</h1>
+        <h1 className="text-xl font-normal">INFO3WEB</h1>
       </div>
 
       <nav className="flex flex-col gap-12 w-full">
