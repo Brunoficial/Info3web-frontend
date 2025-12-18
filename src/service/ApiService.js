@@ -64,7 +64,7 @@ instance.interceptors.response.use(
     } 
     else if (status === 401) {
       MessageService.error("Sessão expirada", detail);
-      clearToken();
+      //clearToken();
       console.error("Não autorizado. Verifique suas credenciais.");
     } 
     else if (status === 403) {
